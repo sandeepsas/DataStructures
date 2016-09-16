@@ -21,16 +21,16 @@ public class TestCase {
 		ll.insertFirstNode(120);
 		ll.insertFirstNode(220);
 		System.out.println(ll);
-		//System.out.println(ll.sizeOf());
-		//ll.removeDuplicates();
-		//ll.removeNode(20);
-		//System.out.println(ll);
-		//System.out.println(ll.sizeOf());
+		System.out.println(ll.sizeOf());
+		ll.removeDuplicates();
+		ll.removeNode(20);
+		System.out.println(ll);
+		System.out.println(ll.sizeOf());
 		
-		/*LinkedListIterator<Integer> itr = (LinkedListIterator<Integer>) ll.iterator();
+		LinkedListIterator<Integer> itr = (LinkedListIterator<Integer>) ll.iterator();
 		while(itr.hasNext()){
 			System.out.print(itr.next()+" ");
-		}*/
+		}
 		ll.reverse();
 		System.out.println(ll);
 		
